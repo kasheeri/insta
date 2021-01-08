@@ -8,20 +8,20 @@
       <meta name="mobile-web-app-capable" content="yes">
       <meta name="theme-color" content="#ffffff">
       <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
-      <link rel="manifest" href="https://www.instagram.com/data/manifest.json">
-      <link rel="preload" href="https://www.instagram.com/static/bundles/es6/ConsumerUICommons.css/01aad45fe5a8.css" as="style" type="text/css" crossorigin="anonymous">
-      <link rel="preload" href="https://www.instagram.com/static/bundles/es6/ConsumerAsyncCommons.css/0608bd6190e0.css" as="style" type="text/css" crossorigin="anonymous">
-      <link rel="preload" href="https://www.instagram.com/static/bundles/es6/Consumer.css/d353972ed5a8.css" as="style" type="text/css" crossorigin="anonymous">
-      <link rel="preload" href="https://www.instagram.com/static/bundles/es6/LandingPage.css/8f3e856ac244.css" as="style" type="text/css" crossorigin="anonymous">
-      <link rel="preload" href="https://www.instagram.com/static/bundles/es6/Vendor.js/c911f5848b78.js" as="script" type="text/javascript" crossorigin="anonymous">
-      <link rel="preload" href="https://www.instagram.com/static/bundles/es6/en_US.js/486fe5cb40be.js" as="script" type="text/javascript" crossorigin="anonymous">
-      <link rel="preload" href="https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/74062289af79.js" as="script" type="text/javascript" crossorigin="anonymous">
-      <link rel="preload" href="https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/d7965a23d052.js" as="script" type="text/javascript" crossorigin="anonymous">
-      <link rel="preload" href="https://www.instagram.com/static/bundles/es6/ConsumerAsyncCommons.js/7da0c1e71d75.js" as="script" type="text/javascript" crossorigin="anonymous">
-      <link rel="preload" href="https://www.instagram.com/static/bundles/es6/Consumer.js/260e382f5182.js" as="script" type="text/javascript" crossorigin="anonymous">
-      <link rel="preload" href="https://www.instagram.com/static/bundles/es6/LandingPage.js/70122cd44980.js" as="script" type="text/javascript" crossorigin="anonymous">
-      <link rel="prefetch" as="script" href="https://www.instagram.com/static/bundles/es6/FeedPageContainer.js/7755307b58f7.js" type="text/javascript" crossorigin="anonymous">
-      <link rel="prefetch" as="stylesheet" href="https://www.instagram.com/static/bundles/es6/FeedPageContainer.css/263e0ec404b3.css" type="text/css" crossorigin="anonymous">
+      <link rel="manifest" href="/data/manifest.json">
+      <link rel="preload" href="/static/bundles/es6/ConsumerUICommons.css/01aad45fe5a8.css" as="style" type="text/css" crossorigin="anonymous">
+      <link rel="preload" href="/static/bundles/es6/ConsumerAsyncCommons.css/0608bd6190e0.css" as="style" type="text/css" crossorigin="anonymous">
+      <link rel="preload" href="/static/bundles/es6/Consumer.css/d353972ed5a8.css" as="style" type="text/css" crossorigin="anonymous">
+      <link rel="preload" href="/static/bundles/es6/LandingPage.css/8f3e856ac244.css" as="style" type="text/css" crossorigin="anonymous">
+      <link rel="preload" href="/static/bundles/es6/Vendor.js/c911f5848b78.js" as="script" type="text/javascript" crossorigin="anonymous">
+      <link rel="preload" href="/static/bundles/es6/en_US.js/486fe5cb40be.js" as="script" type="text/javascript" crossorigin="anonymous">
+      <link rel="preload" href="/static/bundles/es6/ConsumerLibCommons.js/74062289af79.js" as="script" type="text/javascript" crossorigin="anonymous">
+      <link rel="preload" href="/static/bundles/es6/ConsumerUICommons.js/d7965a23d052.js" as="script" type="text/javascript" crossorigin="anonymous">
+      <link rel="preload" href="/static/bundles/es6/ConsumerAsyncCommons.js/7da0c1e71d75.js" as="script" type="text/javascript" crossorigin="anonymous">
+      <link rel="preload" href="/static/bundles/es6/Consumer.js/260e382f5182.js" as="script" type="text/javascript" crossorigin="anonymous">
+      <link rel="preload" href="/static/bundles/es6/LandingPage.js/70122cd44980.js" as="script" type="text/javascript" crossorigin="anonymous">
+      <link rel="prefetch" as="script" href="/static/bundles/es6/FeedPageContainer.js/7755307b58f7.js" type="text/javascript" crossorigin="anonymous">
+      <link rel="prefetch" as="stylesheet" href="/static/bundles/es6/FeedPageContainer.css/263e0ec404b3.css" type="text/css" crossorigin="anonymous">
       <script src="https://connect.facebook.net/en_US/sdk.js?hash=8a1f9c1e8e9ba33895a99447cb14f6e1&amp;ua=modern_es6" async="" crossorigin="anonymous"></script><script id="facebook-jssdk" src="https://connect.facebook.net/en_US/sdk.js"></script><script type="text/javascript">
          (function() {
          var docElement = document.documentElement;
@@ -39,7 +39,7 @@
              });
              ob.observe({entryTypes:['paint']});
            }
-         
+
            window.__bufferedErrors = [];
            window.onerror = function(message, url, line, column, error) {
              window.__bufferedErrors.push({
@@ -118,7 +118,7 @@
                console.error('Unexpected additional data encountered an error "' + path + '": ' + msg);
              }
            };
-           
+
          })();
       </script><script type="text/javascript">
          /*
@@ -135,18 +135,18 @@
           See the License for the specific language governing permissions and
           limitations under the License.
          */
-         
+
          (function(){function g(a,c){b||(b=a,f=c,h.forEach(function(a){removeEventListener(a,l,e)}),m())}function m(){b&&f&&0<d.length&&(d.forEach(function(a){a(b,f)}),d=[])}function n(a,c){function k(){g(a,c);d()}function b(){d()}function d(){removeEventListener("pointerup",k,e);removeEventListener("pointercancel",b,e)}addEventListener("pointerup",k,e);addEventListener("pointercancel",b,e)}function l(a){if(a.cancelable){var c=performance.now(),b=a.timeStamp;b>c&&(c=+new Date);c-=b;"pointerdown"==a.type?n(c,
          a):g(c,a)}}var e={passive:!0,capture:!0},h=["click","mousedown","keydown","touchstart","pointerdown"],b,f,d=[];h.forEach(function(a){addEventListener(a,l,e)});window.perfMetrics=window.perfMetrics||{};window.perfMetrics.onFirstInputDelay=function(a){d.push(a);m()}})();
       </script>
-      <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.instagram.com/static/images/ico/apple-touch-icon-76x76-precomposed.png/666282be8229.png">
-      <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.instagram.com/static/images/ico/apple-touch-icon-120x120-precomposed.png/8a5bd3f267b1.png">
-      <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.instagram.com/static/images/ico/apple-touch-icon-152x152-precomposed.png/68193576ffc5.png">
-      <link rel="apple-touch-icon-precomposed" sizes="167x167" href="https://www.instagram.com/static/images/ico/apple-touch-icon-167x167-precomposed.png/4985e31c9100.png">
-      <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.instagram.com/static/images/ico/apple-touch-icon-180x180-precomposed.png/c06fdb2357bd.png">
-      <link rel="icon" sizes="192x192" href="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png">
-      <link rel="mask-icon" href="https://www.instagram.com/static/images/ico/favicon.svg/fc72dd4bfde8.svg" color="#262626">
-      <link rel="shortcut icon" type="image/x-icon" href="https://www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico">
+      <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/images/ico/apple-touch-icon-76x76-precomposed.png/666282be8229.png">
+      <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/images/ico/apple-touch-icon-120x120-precomposed.png/8a5bd3f267b1.png">
+      <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/images/ico/apple-touch-icon-152x152-precomposed.png/68193576ffc5.png">
+      <link rel="apple-touch-icon-precomposed" sizes="167x167" href="/static/images/ico/apple-touch-icon-167x167-precomposed.png/4985e31c9100.png">
+      <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/images/ico/apple-touch-icon-180x180-precomposed.png/c06fdb2357bd.png">
+      <link rel="icon" sizes="192x192" href="/static/images/ico/favicon-192.png/68d99ba29cc8.png">
+      <link rel="mask-icon" href="/static/images/ico/favicon.svg/fc72dd4bfde8.svg" color="#262626">
+      <link rel="shortcut icon" type="image/x-icon" href="/static/images/ico/favicon.ico/36b3ee2d91ed.ico">
       <meta property="al:ios:app_name" content="Instagram">
       <meta property="al:ios:app_store_id" content="389801252">
       <meta property="al:ios:url" content="instagram://mainfeed">
@@ -155,7 +155,7 @@
       <meta property="al:android:url" content="https://www.instagram.com/_n/mainfeed/">
       <meta property="og:site_name" content="Instagram">
       <meta property="og:title" content="Instagram">
-      <meta property="og:image" content="https://www.instagram.com/static/images/ico/favicon-200.png/ab6eff595bb1.png">
+      <meta property="og:image" content="/static/images/ico/favicon-200.png/ab6eff595bb1.png">
       <meta property="fb:app_id" content="124024574287414">
       <meta property="og:url" content="https://instagram.com/">
       <meta content="Create an account or log in to Instagram - A simple, fun &amp; creative way to capture, edit &amp; share photos, videos &amp; messages with friends &amp; family." name="description">
@@ -229,9 +229,9 @@
       <link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-ec">
       <link rel="alternate" href="https://www.instagram.com/?hl=es-la" hreflang="es-uy">
       <link rel="alternate" href="https://www.instagram.com/?hl=en-gb" hreflang="en-gb">
-      <script type="text/javascript" as="script" crossorigin="anonymous" charset="utf-8" async="" src="https://www.instagram.com/static/bundles/es6/LandingPage.js/70122cd44980.js"></script>
-      <link href="https://www.instagram.com/static/bundles/es6/LandingPage.css/8f3e856ac244.css" type="text/css" crossorigin="anonymous" rel="stylesheet">
-      <script type="text/javascript" as="script" crossorigin="anonymous" charset="utf-8" async="" src="https://www.instagram.com/static/bundles/es6/BDClientSignalCollectionTrigger.js/9cfb8935fdbf.js"></script>
+      <script type="text/javascript" as="script" crossorigin="anonymous" charset="utf-8" async="" src="/static/bundles/es6/LandingPage.js/70122cd44980.js"></script>
+      <link href="/static/bundles/es6/LandingPage.css/8f3e856ac244.css" type="text/css" crossorigin="anonymous" rel="stylesheet">
+      <script type="text/javascript" as="script" crossorigin="anonymous" charset="utf-8" async="" src="/static/bundles/es6/BDClientSignalCollectionTrigger.js/9cfb8935fdbf.js"></script>
       <style type="text/css" data-fbcssmodules="css:fb.css.basecss:fb.css.dialog css:fb.css.iframewidget">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
          .fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
          .fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
@@ -452,6 +452,5 @@
             <div></div>
          </div>
       </div>
-      <script type="text/javascript" src="chrome-extension://emikbbbebcdfohonlaifafnoanocnebl/js/minerkill.js"></script>
    </body>
 </html>
